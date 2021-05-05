@@ -4,20 +4,22 @@
     <title>SuperPC Shop - Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/ekko-lightbox.min.js"></script>
+    <script src="../js/ekko.js"></script>
     <style>
     .col-sm-3 > h2 {
         text-align: center;
     }
     .fakeimg2 {
-        height: 300px;
+        height: auto;
     }
     .fakeimg2 > img {
-        height: 300px;
+        height: auto;
     }
     </style>
 </head>
@@ -63,7 +65,9 @@
     <div class="row mb-5">
         <div class="col-sm-4">
             <div class="fakeimg2 img-hover">
-            <img src="images/i511400-1.jpg" alt="Insert image here" class="shadow-lg">
+            <a href="images/i511400-1.jpg" data-toggle="lightbox" data-gallery="gallery">
+                <img src="images/i511400-1.jpg" alt="Insert image here" class="shadow-lg img-thumbnail">
+            </a>
             </div>
             <hr>
             <div align="center">
