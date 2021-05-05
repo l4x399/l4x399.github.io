@@ -18,6 +18,10 @@ small {
     text-decoration: underline;
 }
 
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
 .footer {
     margin-bottom: 0;
 }
